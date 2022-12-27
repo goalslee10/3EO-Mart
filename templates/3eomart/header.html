@@ -1,0 +1,22 @@
+{% load static %}
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="{% static 'header.css' %}">
+        {% block style%} 
+
+        {% endblock%}
+    </head>
+    <body>
+        <span class='header1'>
+            <p class='logo' id='logo'>3EO-Mart</p>
+        </span>
+        <span class='header2'>
+            <button type="button" class="btn_cancel" id="btn_cancel" onclick="location.href='../'">취소</button>
+        </span>
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>

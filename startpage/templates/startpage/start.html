@@ -1,0 +1,13 @@
+{% extends '3eomart/header.html' %}
+
+{% load static %}
+
+{% block style %}
+<link rel="stylesheet" type="text/css" href="{% static 'startpage/start.css' %}">
+{% endblock %}
+
+{% block content %}
+ 
+<div class='startfont'><p class='selfstart'>셀프계산<br>시작하기</p></div>
+<div class='start'><button type='submit' class='btn_start' onclick="location.href='listpage'">스캔시작</button></div>
+{% endblock %}

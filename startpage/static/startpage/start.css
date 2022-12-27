@@ -1,0 +1,28 @@
+.startfont{
+    position:absolute;
+    top:7em;
+    left:31em;
+}
+
+.selfstart{
+    font-size: 60px;
+    letter-spacing: 0.77em;
+}
+
+.start{
+    position:absolute;
+    top:25em;
+    left:31em;
+}
+
+.btn_start{
+    font-size: 25px;
+    color: #384082;
+    letter-spacing: 0.62em;
+
+    padding: 15px 100px;
+    line-height: 30px;
+    background: #FFFFFF;
+    border: 2px solid rgba(56, 64, 130, 0.89);
+    border-radius: 70px;
+}

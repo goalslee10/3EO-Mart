@@ -1,0 +1,35 @@
+.header1{
+    position: absolute;
+    top: 2em;
+    left: 7em;
+}
+
+.header2{
+    position:absolute;
+    top: 4em;
+    left: 20em;
+}
+
+.logo{
+    font-family: '굴림';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.btn_cancel{
+    width: 54px;
+    height: 26px;
+        
+    background: rgba(56, 64, 130, 0.65);
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.12);
+    
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-size: 14px;
+    
+    letter-spacing: 0.13em;
+    
+    color: #FFFFFF;
+}
+

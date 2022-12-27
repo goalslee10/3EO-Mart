@@ -1,0 +1,60 @@
+.productlist{
+    position:absolute;
+    top:2em;
+    left:40em;
+
+}
+
+table{
+    box-sizing: border-box;
+    border-collapse: collapse;
+    width: 44em;
+
+    text-align: center;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+}
+
+th{
+    background: rgba(38, 43, 91, 0.17);
+}
+
+.cash{
+    position:absolute;
+    top:25em;
+    left:47em;
+}
+
+.discount{
+    font-size: 20px;
+}
+
+hr{
+    border:solid 2px;
+    width:31em;
+}
+
+.total{
+
+    font-size: 20px;
+}
+
+.charge{
+    position:absolute;
+    top: 35em;
+    left: 47em;
+    
+}
+
+.btn_charge{
+    background: rgba(56, 64, 130, 0.89);
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 148px;
+    font-size: 30px;
+    letter-spacing: 0.7em;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
