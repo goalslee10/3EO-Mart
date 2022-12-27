@@ -25,4 +25,12 @@
     background: #FFFFFF;
     border: 2px solid rgba(56, 64, 130, 0.89);
     border-radius: 70px;
+
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn_start:hover{
+    background: #384082;
+    color:white;
 }

@@ -44,17 +44,45 @@ hr{
 .charge{
     position:absolute;
     top: 35em;
-    left: 47em;
-    
+    left: 47em;    
 }
 
 .btn_charge{
     background: rgba(56, 64, 130, 0.89);
     border: none;
     color: #FFFFFF;
-    padding: 15px 148px;
+    padding: 15px;
+    width: 17em;
     font-size: 30px;
     letter-spacing: 0.7em;
     text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    
+    display: inline-block;
+
+    cursor: pointer;
+}
+
+.btn_charge span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+
+.btn_charge span:after{
+    content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+}
+
+.btn_charge:hover span{
+    padding-right: 25px;
+}
+
+.btn_charge:hover span:after {
+    opacity: 1;
+    right: 0;
 }

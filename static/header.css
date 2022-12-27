@@ -1,12 +1,12 @@
 .header1{
     position: absolute;
-    top: 2em;
+    top: 0.1px;
     left: 7em;
 }
 
 .header2{
     position:absolute;
-    top: 4em;
+    top: 2em;
     left: 20em;
 }
 
@@ -23,13 +23,20 @@
         
     background: rgba(56, 64, 130, 0.65);
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
     
-    font-family: 'Inria Sans';
-    font-style: normal;
     font-size: 14px;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
     
     letter-spacing: 0.13em;
     
     color: #FFFFFF;
+    cursor: pointer;
+}
+
+.btn_cancel:hover{
+    width: 60px;
+    height: 30px;
 }
 
