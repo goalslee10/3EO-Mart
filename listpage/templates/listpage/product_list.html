@@ -7,38 +7,42 @@
 {% endblock %}
 
 {% block content %}
-<span class='productlist' id='productlist'>
-    <table border = '2'>
-    <th>No.</th>
-    <th>상품명</th>
-    <th>수량</th>
-    <th>가격</th>
-{% if product_list %}
+<div class='video'>
+    <div class='test1'>
+        <p class='test'>물품을 선반에 올려주세요</p>
+    </div>
+    <img class='webcam' src="http://127.0.0.1:8000/startpage/listpage/listpage"/>
+</div>
+    <div class='productlist' id='productlist'>
+        <table border = '2'>
+        <th>No.</th>
+        <th>상품명</th>
+        <th>수량</th>
+        <th>가격</th>
+    {% if product_list %}
     
         {% for product in product_list %}
-    <tr>
-        <td><p>{{product.id}}</p></td>
-        <td><p>{{product.product_name}}</p></td>   
-        <td><p>{{product.product_amount}}</p></td>
-        <td><p>\{{product.product_price}}</p></td>
-    </tr>
+        <tr>
+            <td><p>{{product.id}}</p></td>
+            <td><p>{{product.product_name}}</p></td>   
+            <td><p>{{product.product_amount}}</p></td>
+            <td><p>\{{product.product_price}}</p></td>
+        </tr>
         {% endfor %}
     
-{% else %}
-    <p>상품이 없습니다.</p> 
-{% endif %}
-</table>
-</span>
-<span class="cash">
-    <p class="discount">할인금액:</p>
-    <hr>
-    <p class="total">총계 : </p>
-</span>
+    {% else %}
+        <p>상품이 없습니다.</p> 
+    {% endif %}
+        </table>
+        <span class="cash">
+            <p class="discount">할인금액:</p>
+            <hr>
+            <p class="total">총계 : </p>
+        
 
-<span class="charge">
-    <button type="button" class="btn_charge" id="btn_charge" onclick="location.href='paypage'"><span>결제하기</span></button>
-</span>
-
-
-
+            <span class="charge">
+                <button type="button" class="btn_charge" id="btn_charge" onclick="location.href='paypage'"><span>결제하기</span></button>
+            </span>
+        </span>
+    </div>
 {% endblock %}

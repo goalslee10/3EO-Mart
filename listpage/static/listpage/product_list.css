@@ -1,7 +1,18 @@
-.productlist{
+.test1{
     position:absolute;
-    top:2em;
-    left:40em;
+    text-align: center;
+    width:450;
+}
+
+.webcam{
+    width: 430px;
+    height: 400px
+}
+
+.productlist{
+    position: absolute;
+    left:43%;
+    top:5%;
 
 }
 
@@ -23,8 +34,8 @@ th{
 
 .cash{
     position:absolute;
-    top:25em;
-    left:47em;
+    top:110%;
+    left:18%;
 }
 
 .discount{
@@ -42,9 +53,6 @@ hr{
 }
 
 .charge{
-    position:absolute;
-    top: 35em;
-    left: 47em;    
 }
 
 .btn_charge{
