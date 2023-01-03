@@ -1,4 +1,4 @@
-# DeepLearningProject - 3EO-Mart
+# DeepLearningProject - 3EO-Mart(삼이오 마트)
 ### "No Barcode! Just Scan!"
 딥러닝 모델을 활용한 객체 탐지 편의점
 <br></br>
