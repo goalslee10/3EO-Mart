@@ -5,7 +5,7 @@ Yolo 모델을 활용한 객체 탐지
 
 ## 📚 STACK
 #### Language : python(v3.9), HTML5, CSS3
-#### Framework : TensorFlow, Keras, PyTorch, Django
+#### Framework : TensorFlow, PyTorch, Django
 #### IDE : Vscode, Google Colab
 #### DevOps : Sqlite3(v3.12.2), iriun(webcam 실시간 streaming), Roboflow, Figma, Gitmind
 #### Slack, Notion
