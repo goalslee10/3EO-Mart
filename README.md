@@ -23,10 +23,10 @@ Yolo 모델을 활용한 객체 탐지
 
 <br></br>
 ## :raising_hand: 2. 팀원 소개 및 맡은 역할
-이은지 <br></br>
-이영주 <br></br>
-오치헌 <br></br>
-이해민 : 흐름도 작성, UI, 데이터 수집 및 활용, YOLO, Django, front-end, OpenCV, Object Tracking<br></br>
+이은지 : UI, 데이터 수집 및 활용, Yolo, OpenCV, front-end <br></br>
+이영주 : 데이터 수집 및 활용, CNN, 모델 비교 분석(Few shot learning, Yolo, EfficientDet)<br></br>
+오치헌 : 데이터 전처리, CNN, Yolo, OpenCV <br></br>
+이해민 : 흐름도 작성, UI, 데이터 수집 및 활용, Yolo, Django, front-end, OpenCV, Object Tracking<br></br>
 
 <br></br>
 
@@ -44,7 +44,7 @@ Yolo 모델을 활용한 객체 탐지
 * 22/12/27 ~ 22/12/29 - 객체 탐지 테스트
 * 22/12/30 ~ 23/01/02 - 각 모델 비교 및 최적화
 * 22/12/21 ~ ing      - Django, OpenCV  - (물품 실시간 webcam, 결제 기능 구현)
-* 23/01/02 ~ ing      - Object Tracking 적용
+* 23/01/02 ~ ing      - Object Tracking
 <br></br>
 
 
