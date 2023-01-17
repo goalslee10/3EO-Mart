@@ -23,10 +23,10 @@ Yolo 모델을 활용한 객체 탐지
 
 <br></br>
 ## :raising_hand: 2. 팀원 소개 및 맡은 역할
+이해민 : 흐름도 작성, UI, 데이터 수집 및 활용, Yolo, Django, front-end, OpenCV, Object Tracking<br></br>
 이은지 : UI, 데이터 수집 및 활용, Yolo, OpenCV, front-end <br></br>
 이영주 : 데이터 수집 및 활용, CNN, 모델 비교 분석(Few shot learning, Yolo, EfficientDet)<br></br>
 오치헌 : 데이터 전처리, CNN, Yolo, OpenCV <br></br>
-이해민 : 흐름도 작성, UI, 데이터 수집 및 활용, Yolo, Django, front-end, OpenCV, Object Tracking<br></br>
 
 <br></br>
 
@@ -47,8 +47,16 @@ Yolo 모델을 활용한 객체 탐지
 * 23/01/02 ~ ing      - Object Tracking
 <br></br>
 
+## :computer: 4. UI
+<img width=40% src="https://user-images.githubusercontent.com/111646028/212854360-1b01db33-f600-4d49-b2f5-2768cdbe4542.PNG"/>
+<img width=40% src="https://user-images.githubusercontent.com/111646028/212854894-0e8937b2-1cb6-4c12-b0be-c4da3ab9e267.PNG"/>
+<img width=40% src="https://user-images.githubusercontent.com/111646028/212855531-aaf7c8f2-c1ff-4063-8ff3-a0517d3ff19b.PNG"/>
+<img width=40% src="https://user-images.githubusercontent.com/111646028/212855044-8070d38f-26c9-4ebc-9f75-15be8249316b.PNG"/>
+<img width=40% src="https://user-images.githubusercontent.com/111646028/212855181-7cde767b-5fa2-4ee9-a0c7-9137aa25aa80.PNG"/>
 
-## :bookmark_tabs: 4. 진행경과
+
+
+## :bookmark_tabs:  진행경과
 #### 1) 데이터 수집
 #### 2) 데이터 분석
 #### 3) 데이터 전처리
@@ -58,7 +66,7 @@ Yolo 모델을 활용한 객체 탐지
 <br></br>
 
 
-## :soccer::running: 5. 트러블 슈팅
+## :soccer::running:  트러블 슈팅
 ## 
 <br></br>
  
