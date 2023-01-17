@@ -48,20 +48,15 @@ Yolo 모델을 활용한 객체 탐지
 <br></br>
 
 ## :computer: 4. UI
-<img width=40% src="https://user-images.githubusercontent.com/111646028/212854360-1b01db33-f600-4d49-b2f5-2768cdbe4542.PNG"/>
-<img width=40% src="https://user-images.githubusercontent.com/111646028/212854894-0e8937b2-1cb6-4c12-b0be-c4da3ab9e267.PNG"/>
-<img width=40% src="https://user-images.githubusercontent.com/111646028/212855531-aaf7c8f2-c1ff-4063-8ff3-a0517d3ff19b.PNG"/>
-<img width=40% src="https://user-images.githubusercontent.com/111646028/212855044-8070d38f-26c9-4ebc-9f75-15be8249316b.PNG"/>
-<img width=40% src="https://user-images.githubusercontent.com/111646028/212855181-7cde767b-5fa2-4ee9-a0c7-9137aa25aa80.PNG"/>
+<img width=60% src="https://user-images.githubusercontent.com/111646028/212854360-1b01db33-f600-4d49-b2f5-2768cdbe4542.PNG"/>
+<img width=60% src="https://user-images.githubusercontent.com/111646028/212854894-0e8937b2-1cb6-4c12-b0be-c4da3ab9e267.PNG"/>
+<img width=60% src="https://user-images.githubusercontent.com/111646028/212855531-aaf7c8f2-c1ff-4063-8ff3-a0517d3ff19b.PNG"/>
+<img width=60% src="https://user-images.githubusercontent.com/111646028/212855044-8070d38f-26c9-4ebc-9f75-15be8249316b.PNG"/>
+<img width=60% src="https://user-images.githubusercontent.com/111646028/212855181-7cde767b-5fa2-4ee9-a0c7-9137aa25aa80.PNG"/>
 
 
 
-## :bookmark_tabs:  진행경과
-#### 1) 데이터 수집
-#### 2) 데이터 분석
-#### 3) 데이터 전처리
-#### 4) 분석 모델 검토 및 개발
-#### 5) 테스트 영상
+## :bookmark_tabs:  
 
 <br></br>
 
@@ -71,11 +66,7 @@ Yolo 모델을 활용한 객체 탐지
 <br></br>
  
  
-## :chart_with_upwards_trend: 6. 결과
-#### 1) 기대효과
-#### 2) 프로젝트 진행 중 이슈 및 특이사항
-#### 3) 향후 계획
-#### 4) 느낀점
+## :chart_with_upwards_trend: 
 
 
 
