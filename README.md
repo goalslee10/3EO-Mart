@@ -26,7 +26,7 @@ Yolo 모델을 활용한 객체 탐지
 이은지 <br></br>
 이영주 <br></br>
 오치헌 <br></br>
-이해민 : 흐름도 작성, UI, 데이터 수집 및 활용, YOLO, Web Dev, OpenCV, Object Tracking<br></br>
+이해민 : 흐름도 작성, UI, 데이터 수집 및 활용, YOLO, Django, front-end, OpenCV, Object Tracking<br></br>
 
 <br></br>
 
