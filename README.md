@@ -26,7 +26,7 @@ Yolo 모델을 활용한 객체 탐지
 이해민 : 흐름도 작성, UI, 데이터 수집 및 활용, Yolo, Django, front-end, OpenCV, Object Tracking<br></br>
 이은지 : UI, 데이터 수집 및 활용, Yolo, OpenCV, front-end <br></br>
 이영주 : 데이터 수집 및 활용, CNN, 모델 비교 분석(Few shot learning, Yolo, EfficientDet)<br></br>
-오치헌 : 데이터 전처리, CNN, Yolo, OpenCV <br></br>
+오치헌 : 데이터 전처리, CNN, Yolo, OpenCV, Django <br></br>
 
 <br></br>
 
