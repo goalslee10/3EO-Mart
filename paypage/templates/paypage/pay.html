@@ -6,22 +6,33 @@
 <link rel="stylesheet" type="text/css" href="{% static 'paypage/pay.css' %}">
 {% endblock %}
 
+
 {% block content %}
-<div class="box1">
-    <h1>결제수단을 선택해주세요</h1>
-    <div class="box2">
-        <button class="button1"><img class="image" src="card.png" alt="card"><br>카드</button>
-        <button class="button2"><img class="image" src="cash.png" alt="cash"><br>현금</button>
-        <button class="button3"><img class="image" src="samsungpay.png" alt="samsungpay"><br>삼성페이</button>
-        <button class="button4"><img class="image" src="kakaopay.png" alt="kakaopay"><br>카카오페이</button>
+<div class="box">
+    <p class="paypagetitle" style="letter-spacing: 0.1em;"><span style="color:red;">결제수단</span>을 선택해주세요</p>
+    
+
+        <button class="button" onclick="location.href='finishpage'"><img class="image" src="{% static 'howpayimg/card.png' %}" alt="cardimg"><br>카드</button>
+        <button class="button" onclick="location.href='finishpage'"><img class="image" src="{% static 'howpayimg/cash.png' %}" alt="cashimg"><br>현금</button>
+        <button class="button" onclick="location.href='finishpage'"><img class="image" src="{% static 'howpayimg/samsungpay.png' %}" alt="samsungpayimg"><br>삼성페이</button>
+        <button class="button" onclick="location.href='kakaofinish'"><img class="image" src="{% static 'howpayimg/kakaopay.png' %}" alt="kakaopayimg"><br>카카오페이</button>
+
+    <div class='tablebox'>
+        <table border='1'>
+            <tr>
+                <td class='orderpay'>주문 금액</td>
+                <td class='orderpaynum'>28,000</td>  
+                {% comment %} 지금 임의로 넣은 값임   {% endcomment %}
+                <td class='totalpay' rowspan='2'>총 결제금액<p class='totalpayfont'>28,000</p></td>
+            </tr>
+            <tr>
+                <td class='discountpay'>할인 금액</td>
+                <td class='discountpaynum'>0</td>
+            </tr>
+        </table>
     </div>
-    <div class="box3">
-        <p> <h3 class="price">주문금액</h3> 6,050</p>
-        <p> <h3 class="price">할인금액</h3> 0</p>
-        <hr>
-        <p> <h3 class="price">총 결제금액</h3> 6,050</p>
-        <button class="back_button">결제취소</button>
-    </div>
+        <button class="btn_paycancel" onclick="location.href='../'">결제취소</button>
 </div>
 
 {% endblock %}
+

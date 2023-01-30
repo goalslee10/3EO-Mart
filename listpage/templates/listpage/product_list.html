@@ -3,42 +3,63 @@
 {% load static %}
 
 {% block style %}
-<link rel="stylesheet" type="text/css" href="{% static 'listpage/product_list.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'listpage/product_list.css' %}">
 {% endblock %}
 
 {% block content %}
-<span class='productlist' id='productlist'>
-    <table border = '2'>
-    <th>No.</th>
-    <th>상품명</th>
-    <th>수량</th>
-    <th>가격</th>
-{% if product_list %}
-    
-        {% for product in product_list %}
-    <tr>
-        <td><p>{{product.id}}</p></td>
-        <td><p>{{product.product_name}}</p></td>   
-        <td><p>{{product.product_amount}}</p></td>
-        <td><p>\{{product.product_price}}</p></td>
-    </tr>
-        {% endfor %}
-    
-{% else %}
-    <p>상품이 없습니다.</p> 
-{% endif %}
-</table>
-</span>
-<span class="cash">
-    <p class="discount">할인금액:</p>
-    <hr>
-    <p class="total">총계 : </p>
-</span>
+    <div class="wrap">
+        <div class="container">
+            <div class='video'>
+                <div>
+                <img class='webcam' src="http://127.0.0.1:8000/startpage/listpage/listpage"/>
+                </div>
+                <div class='put'>
+                    <h2 class='test' style="letter-spacing: 0.1em;">구매하실 상품을 <span style="color:red;">계산대 위에 </span>올려주세요</h2>
+                </div>
+            </div>
 
-<span class="charge">
-    <button type="button" class="btn_charge" id="btn_charge" onclick="location.href='paypage'">결제하기</button>
-</span>
+            <div class='productlist' id='productlist'>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>상품명</th>
+                            <th>수량</th>
+                            <th>가격</th>
+                        </tr>
+                    </thead>
+                    {% if product_list %}
+                        {% for product in product_list %}
+                        <tbody>
+                            <tr>
+                                <td><p>{{product.id}}</p></td>
+                                <td><p>{{product.product_name}}</p></td>   
+                                <td><p>{{product.product_amount}}개</p></td>
+                                <td><p>{{product.product_price}}원</p></td>
+                            </tr>
+                        </tbody>
+                        {% endfor %}
+                    {% else %}
+                        <p>상품이 없습니다.</p> 
+                    {% endif %}
+                </table>
 
-
-
+                <div class="cash">
+                    <div class="discount">
+                        <span class="dis1">할인금액 : </span>
+                        <span class="dis2">0원</span>
+                    </div>
+                    <hr>
+                    <div class="total">
+                        <span class="dis1">결제금액 : </span>
+                        <span class="dis2" style="color:red;">28,000원</span>
+                    </div>
+                
+                    <div class="charge">
+                        <button type="button" class="btn_charge" id="btn_charge" onclick="location.href='paypage'"><span>결제하기</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 {% endblock %}

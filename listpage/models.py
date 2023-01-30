@@ -7,5 +7,10 @@ class Product(models.Model):
     product_amount = models.IntegerField(default=0)
     register_date = models.DateTimeField()
 
-    def __str__(self):
-        return self.product_name
+def __str__(self):
+    return self.product_name
+
+class Basket(models.Model):
+    basket_name = models.CharField(max_length=200)
+    basket_price = models.IntegerField()
+    basket_amount = models.IntegerField(default=0)

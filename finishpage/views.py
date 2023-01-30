@@ -1,5 +1,5 @@
-from django.http import HttpResponse
-
+from django.shortcuts import render
 
 def index(request):
-    return HttpResponse("감사합니다")
+    return render(request, 'finishpage/finishpage.html')
+   

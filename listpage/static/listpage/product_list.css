@@ -1,60 +1,134 @@
-.productlist{
-    position:absolute;
-    top:2em;
-    left:40em;
-
-}
-
-table{
-    box-sizing: border-box;
-    border-collapse: collapse;
-    width: 44em;
-
-    text-align: center;
-}
-
-th, td {
-    border-bottom: 1px solid #ddd;
-}
-
-th{
-    background: rgba(38, 43, 91, 0.17);
-}
-
-.cash{
-    position:absolute;
-    top:25em;
-    left:47em;
-}
-
-.discount{
+.wrap{
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+  }
+  .container{
+    /* margin-top: 10px; */
+    height: 400px;
+  }
+  .video{
+    width: 50%;
+    height: 700px;
+    float: left;
+  }
+  .productlist{
+    width: 50%;
+    height: 700px;
+    float: left; 
+  }
+  
+  .put{
+      text-align: center;
+      width:450;
+  }
+  .webcam{
+      height: 480px;
+      width: 550px;
+      margin: 20px;
+      background: rgb(255, 255, 255);
+  }
+  
+  table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    padding: 15px;
+  }
+  th {
+    padding: 10px 20px;
+    background: rgb(0, 0, 0, 0.2);
+    color: rgb(0, 0, 0);
+    text-align: left;
+  }
+  td {
+    padding: 5px 20px;
+  }
+  tr:first-child th:first-child {
+    border-top-left-radius: 6px;
+  }
+  tr:first-child th:last-child {
+    border-top-right-radius: 6px;
+  }
+  td {
+    border-right: 1px solid #c6c9cc;
+    border-bottom: 1px solid #c6c9cc;
+  }
+  td:first-child {
+    border-left: 1px solid #ccc6c6;
+  }
+  tr:nth-child(even) td {
+    background: #eeeeee;
+  }
+  tr:last-child td:first-child {
+    border-bottom-left-radius: 6px;
+  }
+  tr:last-child td:last-child {
+    border-bottom-right-radius: 6px;
+  }
+  
+  .cash{
+    padding: 5px 20px;
     font-size: 20px;
-}
-
-hr{
-    border:solid 2px;
-    width:31em;
-}
-
-.total{
-
-    font-size: 20px;
-}
-
-.charge{
-    position:absolute;
-    top: 35em;
-    left: 47em;
+    letter-spacing: 0.3em;
+  }
+  
+  hr{
+    border: 0;
+    height : 3px;
+    background-color : rgb(0, 0, 0, 0.2);
+    clear: left;
+    margin-top: 2em;
+  
+  }
+  .dis1{
+    float: left;
+  }
+  .dis2{
+    background-color: #f8ffee;
+    float: right;
+    font-weight: bold;
+  }
+  
+  .charge{
+    clear: left;
+    display: flex; 
+    justify-content: center;
+    padding-top: 20px;
     
-}
-
-.btn_charge{
+  }
+  .btn_charge{
     background: rgba(56, 64, 130, 0.89);
     border: none;
     color: #FFFFFF;
-    padding: 15px 148px;
+    padding: 15px;
+    width: 20em;
     font-size: 30px;
     letter-spacing: 0.7em;
     text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
-}
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .btn_charge span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .btn_charge span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .btn_charge:hover span{
+    padding-right: 25px;
+  }
+  .btn_charge:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

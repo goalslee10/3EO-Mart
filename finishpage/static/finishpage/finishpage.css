@@ -1,0 +1,15 @@
+.box {
+    width: 100;
+    position: absolute;
+    text-align: center;
+    padding : 40px 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10%;
+    border-top: 20px solid #b6d1b8;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+  }

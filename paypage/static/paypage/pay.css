@@ -1,0 +1,109 @@
+.paypagetitle{
+  font-size: 30px;
+  margin:20px;
+  font-weight: 700;
+}
+
+.box {
+  position: absolute;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  top: 5em;
+  left: 15em;
+  margin: 7px;
+  border-top: 20px solid #AFB2C6;
+  background: #FFFFFF;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.button {
+  border:none;
+  margin:12px;
+  font-size: 20px;
+  border-radius: 12px;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.15);
+}
+.button:hover {background-color: rgba(0, 0, 0, 0.15)}
+
+.image {
+    width: 150px;
+    height: 120px;
+    margin: 10px;
+}
+
+.tablebox{
+  padding-left: 6em;
+}
+
+table{
+  border-collapse: collapse;
+  width: 30em;
+  margin: 15px;
+  font-size: 20px;
+}
+
+th, td{
+  padding:15px;
+}
+.orderpay{
+  border-top: 2px solid rgb(222, 222, 222);
+  border-left: 1px solid rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(222, 222, 222);
+}
+
+.orderpaynum{
+  border-top: 2px solid rgb(222, 222, 222);
+  border-left: 1px solid rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(222, 222, 222);
+}
+
+.discountpay{
+  border-left: 1px solid rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(222, 222, 222);
+}
+
+.discountpaynum{
+  border-left: 1px solid rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(222, 222, 222);
+}
+
+.totalpay{
+  border-top: 2px solid rgb(222, 222, 222);
+  border-right: 1px solid rgb(255, 255, 255);
+  border-left: 2px solid rgb(222, 222, 222);
+  border-bottom: 2px solid rgb(222, 222, 222);
+
+  font-weight: bold;
+}
+
+.totalpayfont{
+  color:red;
+  font-size: 30px;
+  margin:15px;
+}
+
+.btn_paycancel{
+  background: rgba(150, 150, 150, 0.85);
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 8px;
+
+  color: #FFFFFF;
+  font-size: 25px;
+  letter-spacing: 0.7em;
+  padding-left: 40px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  opacity: 0.6;
+  text-decoration: none;
+  cursor: pointer;
+
+  text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.btn_paycancel:hover {opacity:1}
