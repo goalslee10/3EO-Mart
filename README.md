@@ -68,6 +68,3 @@ Yolo 모델을 활용한 객체 탐지
  
 ## :chart_with_upwards_trend: 
 
-
-
-<br></br>
