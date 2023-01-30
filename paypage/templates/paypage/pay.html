@@ -6,20 +6,24 @@
 <link rel="stylesheet" type="text/css" href="{% static 'paypage/pay.css' %}">
 {% endblock %}
 
+
 {% block content %}
 <div class="box">
-    <p class="paypagetitle">결제수단을 선택해주세요</p>
-        <button class="btn_card"><img class="image" src="{% static 'howpayimg/card.png' %}" alt="cardimg"><br>카드</button>
-        <button class="btn_cash"><img class="image" src="{% static 'howpayimg/cash.png' %}" alt="cashimg"><br>현금</button>
-        <button class="btn_samsungpay"><img class="image" src="{% static 'howpayimg/samsungpay.png' %}" alt="samsungpayimg"><br>삼성페이</button>
-        <button class="btn_kakaopay"><img class="image" src="{% static 'howpayimg/kakaopay.png' %}" alt="kakaopayimg"><br>카카오페이</button>
+    <p class="paypagetitle" style="letter-spacing: 0.1em;"><span style="color:red;">결제수단</span>을 선택해주세요</p>
+    
+
+        <button class="button" onclick="location.href='finishpage'"><img class="image" src="{% static 'howpayimg/card.png' %}" alt="cardimg"><br>카드</button>
+        <button class="button" onclick="location.href='finishpage'"><img class="image" src="{% static 'howpayimg/cash.png' %}" alt="cashimg"><br>현금</button>
+        <button class="button" onclick="location.href='finishpage'"><img class="image" src="{% static 'howpayimg/samsungpay.png' %}" alt="samsungpayimg"><br>삼성페이</button>
+        <button class="button" onclick="location.href='kakaofinish'"><img class="image" src="{% static 'howpayimg/kakaopay.png' %}" alt="kakaopayimg"><br>카카오페이</button>
 
     <div class='tablebox'>
         <table border='1'>
             <tr>
                 <td class='orderpay'>주문 금액</td>
-                <td class='orderpaynum'>6,050</td>
-                <td class='totalpay' rowspan='2'>총 결제금액<p class='totalpayfont'>6,050</p></td>
+                <td class='orderpaynum'>28,000</td>  
+                {% comment %} 지금 임의로 넣은 값임   {% endcomment %}
+                <td class='totalpay' rowspan='2'>총 결제금액<p class='totalpayfont'>28,000</p></td>
             </tr>
             <tr>
                 <td class='discountpay'>할인 금액</td>
@@ -31,3 +35,4 @@
 </div>
 
 {% endblock %}
+

@@ -1,25 +1,28 @@
-.header1{
-    position: absolute;
-    top: 0.1px;
-    left: 7em;
+/* .header1{
+    position: relative;
+    top:9%;
+    left: 10%;
+    width:300px;
 }
 
 .header2{
     position:absolute;
-    top: 2em;
-    left: 20em;
-}
+    top: 6%;
+    left: 25%;
+} */
 
-.logo{
-    font-family: '굴림';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
+.logoimg{
+    position: relative;
+    width:200px;
+    height:auto;
+    margin: 10px 50px 10px 10px;
 }
 
 .btn_cancel{
-    width: 54px;
-    height: 26px;
+    position:absolute;
+    margin-top: 10px;
+    width: 60px;
+    height: 30px;
         
     background: rgba(56, 64, 130, 0.65);
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.12);
@@ -36,7 +39,7 @@
 }
 
 .btn_cancel:hover{
-    width: 60px;
-    height: 30px;
+    width: 64px;
+    height: 34px;
 }
 

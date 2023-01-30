@@ -10,12 +10,10 @@
         {% endblock%}
     </head>
     <body>
-        <span class='header1'>
-            <p class='logo' id='logo'>3EO-Mart</p>
-        </span>
-        <span class='header2'>
-            <button type="button" class="btn_cancel" id="btn_cancel" onclick="location.href='../'">이전</button>
-        </span>
+        <div class='header'>
+            <img class='logoimg' src="{% static 'logo.png'%}" alt="logo">
+            <button type="button" class="btn_cancel" onclick="location.href='../'">이전</button>
+        </div>
         {% block content %}
         {% endblock %}
     </body>

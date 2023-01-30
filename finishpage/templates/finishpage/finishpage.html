@@ -1,0 +1,17 @@
+{% extends '3eomart/header.html' %}
+
+{% load static %}
+
+{% block style %}
+<link rel="stylesheet" type="text/css" href="{% static 'finishpage/finishpage.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="box">
+    <img src={% static 'finishpage/check.png' %} alt="check">
+    <p>거래가 완료되었습니다</p>
+    <p><b>감사합니다</b></p>
+</div>
+
+{% endblock %}

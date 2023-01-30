@@ -1,5 +1,4 @@
 """mart URL Configuration
-
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.1/topics/http/urls/
 Examples:
@@ -22,6 +21,6 @@ urlpatterns = [
     path('startpage/listpage/', include('listpage.urls')),
     path('startpage/', include('startpage.urls')),
     path('startpage/listpage/paypage/', include('paypage.urls')),
-    path('finishpage/', include('finishpage.urls')),
+    path('startpage/listpage/paypage/finishpage/', include('finishpage.urls')),
     path('', views.index),
 ]
