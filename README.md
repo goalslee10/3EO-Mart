@@ -44,7 +44,7 @@ Yolo 모델을 활용한 객체 탐지
 * 22/12/27 ~ 22/12/29 - 객체 탐지 테스트
 * 22/12/30 ~ 23/01/02 - 각 모델 비교 및 최적화
 * 22/12/21 ~ ing      - Django, OpenCV  - (물품 실시간 webcam, 결제 기능 구현)
-* 23/01/02 ~ ing      - Object Tracking
+* 23/01/09 ~ ing      - Object Tracking
 <br></br>
 
 ## :computer: 4. UI
